@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>English To Persian Dictionary</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body onload="showlist()">
+    <button onclick="search()">ترجمه</button>
+    <input type="text" onkeyup="showlist()" id="search" placeholder="جستجو" class="input">
+    <ul id="word_list">
+        <div id="wordlist"></div>
+    </ul>
+    <hr>
+    <div class="word">
+
+        <div id="engword"></div>
+        <br>
+        <div id="perword"></div>
+
+    </div>
+    <script src="trie.js"></script>
+</body>
+
+</html>

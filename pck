@@ -1,0 +1,1 @@
+"start": "electron-packager . --overwrite --icon=icon.ico"

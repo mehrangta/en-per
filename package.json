@@ -1,0 +1,18 @@
+{
+  "name": "TrieStructure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electronmain.js",
+  "scripts": {
+    "start": "electron-packager . --overwrite --icon=icon.ico"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "electron-packager": "^14.1.1"
+  },
+  "dependencies": {
+    "jshint": "^2.11.0-rc1"
+  }
+}
